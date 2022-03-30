@@ -6,6 +6,7 @@ Array2 is identical to Proffesor Daniels implementation and is thus compatible w
 To get this working run the following lines within the ppmdiff directory:
 
 cargo build --release
+
 ./target/release/ppmdiff ppm_images/f79.ppm ppm_images/f78.ppm
 
 Your result should be:
